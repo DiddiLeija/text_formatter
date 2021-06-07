@@ -1,4 +1,4 @@
-# text-formatter
+# text_formatter
 
 Pretty formatter for Python strings.
 
