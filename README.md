@@ -1,6 +1,6 @@
 # text-formatter
 
-Pretty formats for Python strings.
+Pretty formatter for Python strings.
 
 ## Installation
 
