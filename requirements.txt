@@ -1,2 +1,2 @@
 setuptools
-pip
+pip >= 20.0
