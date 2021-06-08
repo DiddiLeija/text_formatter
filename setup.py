@@ -8,7 +8,7 @@ setuptools.setup(
     version="1.0.0",
     author="Diego Ramirez",
     author_email="dr01191115@gmail.com",
-    description="Pretty text formatter for Python",
+    description="Pretty formatter for Python strings.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/diddileija/text_formatter/",
