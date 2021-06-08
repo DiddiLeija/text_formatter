@@ -5,7 +5,7 @@
 
 version: 2
 updates:
-  - package-ecosystem: "pip" # Take the pip dependencies
+  - package-ecosystem: "github-actions" # Take the github actions dependencies
     directory: "/" # Find the manifests
     schedule:
       interval: "daily"
