@@ -1,0 +1,6 @@
+.github/ISSUE_TEMPLATE
+======================================================
+
+Store the issue templates (bug report, feature 
+request and custom template)and a simple configuration 
+file (named config.yml).
