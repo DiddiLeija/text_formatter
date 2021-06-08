@@ -32,7 +32,8 @@ setuptools.setup(
         "Operating System :: Microsoft :: Windows :: Windows 7",
         "Operating System :: Microsoft :: Windows :: Windows 8",
         "Operating System :: Unix",
-        "Topic :: Software Development"
+        "Topic :: Software Development",
+        "Topic :: Text Processing"
     ],
     keywords="text format pretty strings formatter",
     python_requires='>=3.6, <3.10',
