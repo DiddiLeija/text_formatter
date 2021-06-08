@@ -5,15 +5,18 @@
 
 version: 2
 updates:
+  # First, look for GitHb actions updates
   - package-ecosystem: "github-actions" # Take the github actions dependencies
     directory: "/" # Find the manifests
     schedule:
       interval: "daily"
       time: "09:30" # update at 9:30 AM 
-      timezone: "America/Mexico_City" # use my latest timezone
+      timezone: "America/Mexico_City" # use my current timezone
+  # Now look for the pip dependencies
+  # (example: setup.py files)
   - package-ecosystem: "pip" # Take the pip dependencies
     directory: "/" # Find the manifests
     schedule:
       interval: "daily"
       time: "09:30" # update at 9:30 AM 
-      timezone: "America/Mexico_City" # use my latest timezone
+      timezone: "America/Mexico_City" # use my current timezone
