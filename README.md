@@ -9,3 +9,7 @@ Pretty formatter for Python strings.
 ```
 pip install text_formatter
 ```
+
+## Contributing
+
+Read the [contributing guidelines](http://github.com/diddileija/text_formatter/blob/main/CONTRIBUTING.md) to know how to contribute to this repository.
