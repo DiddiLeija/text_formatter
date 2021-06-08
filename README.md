@@ -4,8 +4,8 @@ Pretty formatter for Python strings.
 
 ## Installation
 
-`text-formatter` is stil on development, but future releases are intended to be installed by [`pip`](http://github.com/pypa/pip):
+`text-formatter` is still on development, but future releases are intended to be installed by [`pip`](http://github.com/pypa/pip):
 
 ```
-pip install text-formatter
+pip install text_formatter
 ```
