@@ -1,0 +1,6 @@
+.github/workflows/
+===================================
+
+Save the workflows setup files. By
+now, only store the GitHub CodeQL
+action.
