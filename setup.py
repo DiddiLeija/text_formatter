@@ -38,7 +38,7 @@ setuptools.setup(
     keywords="text format pretty strings formatter",
     python_requires='>=3.6, <3.10',
     project_urls={
-        "Documentation": "http://github.com/diddileija/text_formatter/blob/main/README.md", # go to README
+        "Documentation": "http://github.com/diddileija/text_formatter/blob/main/DOCUMENTATION.md", # go to the documentation page
         "Tracker": "http://github.com/diddileija/text_formatter/issues" # GitHub issues page
     }
 )
