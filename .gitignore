@@ -1,7 +1,9 @@
 # My ".gitignore"
 # First, I used a Python template to list
 # all the stuff used by most of the Python
-# cases.
+# cases. Then, I added more items to ignore
+# (anything after ".pyre/", beginning with
+# ".DS_Store"...).
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -132,3 +134,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# .DS_Store files
+.DS_Store
