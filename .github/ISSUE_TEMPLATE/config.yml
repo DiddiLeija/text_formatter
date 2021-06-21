@@ -8,6 +8,3 @@ contact_links:
   - name: Contributing guidelines
     url: http://github.com/diddileija/text_formatter/blob/main/CONTRIBUTING.md
     about: Please read this document before submitting your issues.
-  - name: Project issues page
-    url: http://github.com/diddileija/text_formatter/issues
-    about: Please report your issues here.
