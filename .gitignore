@@ -137,3 +137,23 @@ dmypy.json
 
 # .DS_Store files
 .DS_Store
+
+# Profiling related artifacts
+*.prof
+
+# Misc
+*~
+.*.sw?
+
+# For IntelliJ IDEs (basically PyCharm)
+.idea/
+
+# For Visual Studio Code
+.vscode/
+
+# For Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# Scratch Pad for experiments
+.scratch
