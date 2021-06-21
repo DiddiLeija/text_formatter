@@ -1,3 +1,8 @@
+# My ".gitignore"
+# First, I used a Python template to list
+# all the stuff used by most of the Python
+# cases.
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
