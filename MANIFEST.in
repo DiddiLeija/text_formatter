@@ -5,7 +5,7 @@
 # released to PyPI.
 
 # First, include the license
-include LICENSE
+include LICENSE.txt
 
 # include the README file, the SECURITY advisory and the CONTRIBUTING guidelines
 include README.md
