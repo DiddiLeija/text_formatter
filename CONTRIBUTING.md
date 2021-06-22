@@ -18,9 +18,9 @@ Another way to contribute is _forking this repository_. This will create a paral
 
 ## Benefits of contributing
 
-We really, REALLY appreciate any kind of contributions. That's why we'll reward you for this.
+We really, _REALLY_ appreciate any kind of contributions. That's why we'll reward you for this.
 
-If you are contributing for the first time, we'll add **your name** to `AUTHORS.txt`, which will be distributed
+If you are contributing for the first time, we'll add _**your name**_ to `AUTHORS.txt`, which will be distributed
 on the repo and the PyPI distribution!
 
 ## Code of Conduct
