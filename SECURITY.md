@@ -4,7 +4,9 @@
 
 Here's a list of all the versions to be released on PyPI.
 
-Those versions with a :white_check_mark: are supported, maybe they are stable or being developed right now.
+Those versions with a :white_check_mark: are supported, maybe they are stable or being developed right now. 
+Those with a :warning: are still being stable, but will be deprecated or even yanked in the future. And those with an :x:
+will no longer be supported.
 
 | Version | Supported          | Status          |
 | ------- | ------------------ | --------------- |
