@@ -10,7 +10,7 @@ updates:
     directory: "/" # Find the manifests
     schedule:
       interval: "daily"
-      time: "09:30" # update at 9:30 AM 
+      time: "09:00" # update at 9:00 AM 
       timezone: "America/Mexico_City" # use my current timezone
   # Now look for the pip dependencies
   # (example: setup.py files)
@@ -18,5 +18,5 @@ updates:
     directory: "/" # Find the manifests
     schedule:
       interval: "daily"
-      time: "09:30" # update at 9:30 AM 
+      time: "09:00" # update at 9:00 AM 
       timezone: "America/Mexico_City" # use my current timezone
