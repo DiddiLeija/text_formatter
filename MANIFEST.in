@@ -12,10 +12,6 @@ include README.md
 include SECURITY.md
 include CONTRIBUTING.md
 
-# include setup.py and requirements.txt
-include setup.py
-include requirements.txt
-
 # exclude the GitHub-specific / Git contents
 exclude .github/*
 exclude .gitignore
