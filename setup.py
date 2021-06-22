@@ -14,7 +14,7 @@ setuptools.setup(
     url="https://github.com/diddileija/text_formatter#readme",
     packages=setuptools.find_packages(),
     classifiers=[
-        "Development Status :: 4 - Beta",
+        "Development Status :: 1 - Planning",
         "Intended Audience :: Customer Service",
         "Intended Audience :: Developers",
         "Natural Language :: English",
@@ -39,6 +39,10 @@ setuptools.setup(
     python_requires='>=3.6, <3.10',
     project_urls={
         "Documentation": "http://github.com/diddileija/text_formatter/blob/main/DOCUMENTATION.md", # go to the documentation page
-        "Tracker": "http://github.com/diddileija/text_formatter/issues" # GitHub issues page
+                                                                                                   # (NOTE: this link might strongly change
+                                                                                                   # in the future. See DiddiLeija/text_formatter#11
+                                                                                                   # for more information).
+        "Tracker": "http://github.com/diddileija/text_formatter/issues", # GitHub issues page
+        "Source": "http://github.com/diddileija/text_formatter" # source code on GitHub
     }
 )
