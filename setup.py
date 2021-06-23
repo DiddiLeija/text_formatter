@@ -36,7 +36,7 @@ setuptools.setup(
         "Topic :: Text Processing"
     ],
     keywords="text format pretty strings formatter",
-    python_requires='>=3.6, <3.10',
+    python_requires='>=3.6',
     project_urls={
         "Documentation": "http://github.com/diddileija/text_formatter/blob/main/DOCUMENTATION.md", # go to the documentation page
                                                                                                    # (NOTE: this link might strongly change
