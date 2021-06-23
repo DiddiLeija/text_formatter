@@ -25,4 +25,4 @@ _None yet._
 
 ### Other highlights
 
-_None yet._
+This is the first release for `text_formatter`!
