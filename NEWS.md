@@ -16,7 +16,7 @@ will contain a link to the PyPI page for that version.
 
 ### Features
 
-- New module: `text_formatter.justify`
+- New submodule: `text_formatter.justify`
   - Justify the strings, according to a certain length.
 
 ### Bug fixes
