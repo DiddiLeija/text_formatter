@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="text_formatter",
-    version="1.0.0",
+    version="1.0.0dev4",
     author="Diego Ramirez",
     author_email="dr01191115@gmail.com",
     description="Pretty formatter for Python strings.",
