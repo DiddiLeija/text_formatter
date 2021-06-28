@@ -4,7 +4,7 @@ If you want to contribute, **thank you!** We really appreciate your intentions.
 
 ## Options to contribute
 
-We recommend two: using the issues and the forks.
+We recommend two ways: _using the issues and the forks._
 
 ### Using issues to contribute
 
@@ -17,8 +17,6 @@ Another way to contribute is _forking this repository_. This will create a paral
 [pull request](http://github.com/diddileija/text_formatter/pulls) on the original repo. **Maybe we can merge it!**
 
 ## Benefits of contributing
-
-We really, _REALLY_ appreciate any kind of contributions. That's why we'll reward you for this.
 
 If you are contributing for the first time, we'll add _**your name**_ to `AUTHORS.txt`, which will be distributed
 on the repo and the PyPI distribution!
