@@ -10,7 +10,7 @@ will no longer be supported.
 
 | Version | Supported          | Status          |
 | ------- | ------------------ | --------------- |
-| 1.0.0   | :white_check_mark: | On development  |
+| 1.0.0   | :x:                | On development  |
 
 ## Reporting a Vulnerability
 
