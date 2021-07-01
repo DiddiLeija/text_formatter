@@ -7,8 +7,10 @@ Pretty formatter for Python strings.
 `text-formatter` is still on development, but future releases are intended to be installed by [`pip`](http://github.com/pypa/pip):
 
 ```
-pip install --upgrade text_formatter
+pip install text_formatter
 ```
+
+\(To upgrade, use `pip install --upgrade text-formatter`\)
 
 ## Changelog
 
