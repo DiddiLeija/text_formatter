@@ -6,11 +6,11 @@ Here's a list of all the versions to be released on PyPI.
 
 Those versions with a :white_check_mark: are supported, maybe they are stable or being developed right now. 
 Those with a :warning: are still being stable, but will be deprecated or even yanked in the future. And those with an :x:
-will no longer be supported.
+will no longer be supported or hasn't been released yet.
 
 | Version | Supported          | Status          |
 | ------- | ------------------ | --------------- |
-| 1.0.0   | :white_check_mark: | On development  |
+| 1.0.0   | :x:                | On development  |
 
 ## Reporting a Vulnerability
 
