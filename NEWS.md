@@ -25,4 +25,12 @@ _None yet._
 
 ### Other highlights
 
-This is the first release for `text_formatter`!
+<!-----------------------------------
+I am adding an invitation to help on this section, because
+this version development is getting really slow, and we need
+people on this.
+------------------------------------>
+
+This is the first release for `text_formatter`! At this point, we need more people to make the
+project grow. Go to [CONTRIBUTING.md](http://github.com/diddileija/text_formatter/blob/main/CONTRIBUTING.md) if you want to
+help us!
