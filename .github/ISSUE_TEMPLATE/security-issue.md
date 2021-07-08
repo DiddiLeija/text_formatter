@@ -2,7 +2,7 @@
 name: Security vulnerability issue
 about: An issue about a security vulnerability
 title: ''
-labels: Security Issue
+labels: Security Issue, Please triage this
 asignees: DiddiLeija
 
 ---
