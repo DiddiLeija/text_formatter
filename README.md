@@ -19,3 +19,7 @@ Read [NEWS.md](http://github.com/diddileija/text_formatter/blob/main/NEWS.md) to
 ## Contributing
 
 Read the [contributing guidelines](http://github.com/diddileija/text_formatter/blob/main/CONTRIBUTING.md) to know how to contribute to this repository.
+
+## License
+
+This repository is licensed under the MIT License \([view license file](http://github.com/diddileija/text_formatter/blob/main/LICENSE.txt)\).
