@@ -13,8 +13,8 @@ where to help. Or maybe you know about a problem with the package, feel free to 
 
 ### Fork this repo
 
-Another way to contribute is _forking this repository_. This will create a parallel copy of **text_formatter**. Then, make a 
-[pull request](http://github.com/diddileija/text_formatter/pulls) on the original repo. **Maybe we can merge it!**
+Another way to contribute is _forking this repository_. Then, make a [pull request](http://github.com/diddileija/text_formatter/pulls) 
+on the original repo with your proposed changes. **Maybe we can merge it!**
 
 ## Benefits of contributing
 
