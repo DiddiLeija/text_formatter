@@ -9,4 +9,4 @@ def justify(s: str, l: int) -> str:
     Justify a string (s) and make it
     fit to a specific length (l).
     """
-    return s # This func needs larger development!!! (#1)
+    return s # This func needs larger development!!! (DiddiLeija/text_formatter#1)
