@@ -4,13 +4,13 @@ Pretty formatter for Python strings.
 
 ## Installation
 
-`text-formatter` is still on development, but future releases are intended to be installed by [`pip`](http://github.com/pypa/pip):
+The **`text_formatter`** package can be installed using **[`pip`](http://pip.pypa.io)**:
 
 ```
 pip install text_formatter
 ```
 
-\(To upgrade, use `pip install --upgrade text_formatter`\)
+\(To upgrade, use `pip install --upgrade text_formatter`\).
 
 ## Changelog
 
@@ -22,4 +22,4 @@ Read the [contributing guidelines](http://github.com/diddileija/text_formatter/b
 
 ## License
 
-This repository is licensed under the MIT License \([view license file](http://github.com/diddileija/text_formatter/blob/main/LICENSE.txt)\).
+This repository is licensed under the MIT License \([view license](http://github.com/diddileija/text_formatter/blob/main/LICENSE.txt)\).
