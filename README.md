@@ -10,7 +10,7 @@ Pretty formatter for Python strings.
 pip install text_formatter
 ```
 
-\(To upgrade, use `pip install --upgrade text-formatter`\)
+\(To upgrade, use `pip install --upgrade text_formatter`\)
 
 ## Changelog
 
