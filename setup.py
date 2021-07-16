@@ -11,7 +11,7 @@ setuptools.setup(
     description="Pretty formatter for Python strings.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/diddileija/text_formatter#readme",
+    url="https://github.com/diddileija/text_formatter",
     packages=setuptools.find_packages(),
     classifiers=[
         "Development Status :: 1 - Planning",
@@ -38,10 +38,7 @@ setuptools.setup(
     keywords="text format pretty strings formatter",
     python_requires='>=3.6',
     project_urls={
-        "Documentation": "http://github.com/diddileija/text_formatter/blob/main/DOCUMENTATION.md", # go to the documentation page
-                                                                                                   # (NOTE: this link might strongly change
-                                                                                                   # in the future. See DiddiLeija/text_formatter#11
-                                                                                                   # for more information).
+        "Documentation": "http://text-formatter.readthedocs.io", # ReadTheDocs site
         "Tracker": "http://github.com/diddileija/text_formatter/issues", # GitHub issues page
         "Source": "http://github.com/diddileija/text_formatter" # source code on GitHub
     }
