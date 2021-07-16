@@ -16,4 +16,4 @@ use this package.
 
 .. rubric:: Footnotes
 
-.. [#f1] ``text_formatter`` can also be ``text-formatter``. Actually, on https://pypi.org, you'll find this project as ``text-formatter``. Anyway, we are keeping the original name on this documentation.
+.. [#f1] This ``text_formatter`` package can also be named as ``text-formatter``. Actually, on https://pypi.org, you'll find this project as ``text-formatter`` (http://pypi.org/project/text-formatter). Anyway, we are keeping the original name for this documentation.
