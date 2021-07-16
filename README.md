@@ -18,6 +18,10 @@ pip install text_formatter
 
 Read [NEWS.md](http://github.com/diddileija/text_formatter/blob/main/NEWS.md) to know about the new features by version.
 
+## Documentation
+
+Our documentation is hosted on [ReadTheDocs](http://readthedocs.org). You can see the documentation site [here](http://text-formatter.readthedocs.io).
+
 ## Contributing
 
 Read the [contributing guidelines](http://github.com/diddileija/text_formatter/blob/main/CONTRIBUTING.md) to know how to contribute to this repository.
