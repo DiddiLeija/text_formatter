@@ -1,7 +1,7 @@
 Welcome to the ``text_formatter`` documentation!
 ================================================
 
-``text_formatter`` (or also ``text-formatter``) is an open project to
+``text_formatter`` [#f1]_ is an open project to
 give a pretty, aesthetical aspect to Python strings.
 
 To install it, use ``pip``:
@@ -11,3 +11,7 @@ To install it, use ``pip``:
 At this documentation, you'll find useful information about functions,
 methods, topics, terms, and many other things you will need to
 use this package.
+
+.. rubric:: Footnotes
+
+.. [#f1] ``text_formatter`` can also be ``text-formatter``. Actually, on https://pypi.org, you'll find this project as ``text-formatter``. Anyway, we are keeping the original name on this documentation.
