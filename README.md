@@ -1,5 +1,7 @@
 # text_formatter
 
+[![Documentation Status](https://readthedocs.org/projects/text-formatter/badge/?version=latest)](https://text-formatter.readthedocs.io/en/latest/?badge=latest)
+
 Pretty formatter for Python strings.
 
 ## Installation
