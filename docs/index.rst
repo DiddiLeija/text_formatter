@@ -21,7 +21,7 @@ These are the actual contents of this documentation:
 
 * Contents of ``text_formatter``
 
-  * `text_formatter.justify <http://text-formatter.readthedocs.io/en/latest/contents/justify.rst>`_ - Justify the strings according to a certain length
+  * `text_formatter.justify <http://text-formatter.readthedocs.io/en/latest/justify.rst>`_ - Justify the strings according to a certain length
 
 .. rubric:: Footnotes
 
