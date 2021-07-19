@@ -22,6 +22,11 @@ Read [NEWS.md](http://github.com/diddileija/text_formatter/blob/main/NEWS.md) to
 
 Our documentation is hosted on [ReadTheDocs](http://readthedocs.org). You can see the documentation site [here](http://text-formatter.readthedocs.io).
 
+If you want to build it, you'll need:
+
+- [`Sphinx`](http://github.com/sphinx-doc/sphinx) >= 4.0
+- [`sphinx_copybutton`](http://github.com/executablebooks/sphinx-copybutton)
+
 ## Contributing
 
 Read the [contributing guidelines](http://github.com/diddileija/text_formatter/blob/main/CONTRIBUTING.md) to know how to contribute to this repository.
