@@ -9,5 +9,5 @@ This module provides functions to modify the length of some text Python types, l
    :param s: The string to be manipulated.
    :param l: An integer that defines the length.
 
-   A simple function to justify strings. ```s`` is the string, and ``l`` is the expected
+   A simple function to justify strings. ``s`` is the string, and ``l`` is the expected
    length per line.
