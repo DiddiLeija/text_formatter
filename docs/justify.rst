@@ -1,7 +1,7 @@
 ``text_formatter.justify`` - Justify the strings, according to a certain length
 ================================================================================
 
-(Source: `text_formatter/justify.py <https://github.com/DiddiLeija/text_formatter/blob/main/text_formatter/justify.py>`_)
+**Source code**: `text_formatter/justify.py <https://github.com/DiddiLeija/text_formatter/blob/main/text_formatter/justify.py>`_
 
 This module provides functions to modify the length of some text Python types, like ``str`` or ``bytes``.
 
