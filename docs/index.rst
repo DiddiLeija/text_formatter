@@ -14,6 +14,15 @@ At this documentation, you'll find useful information about functions,
 methods, topics, terms, and many other things you will need to
 use this package.
 
+Table of contents
+-----------------
+
+These are the actual contents of this documentation:
+
+* Contents of ``text_formatter``
+
+  * `text_formatter.justify <http://text-formatter.readthedocs.io/en/latest/contents/justify.rst>`_ - Justify the strings according to a certain length
+
 .. rubric:: Footnotes
 
 .. [#f1] ``text_formatter`` can also be named as ``text-formatter``. Actually, on PyPI (the *Python Package Index*), `you'll find this project <http://pypi.org/project/text-formatter>`_ under the name ``text-formatter``. Anyway, we are keeping the original name for this documentation.
