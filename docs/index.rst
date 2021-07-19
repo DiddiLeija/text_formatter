@@ -4,7 +4,7 @@ Welcome to the ``text_formatter`` documentation!
 ``text_formatter`` [#f1]_ is an open-source project to
 give a pretty, aesthetical aspect to Python strings and other text types.
 
-To install it, use ``pip``:
+To install it, use `pip <http://pip.pypa.io>`_:
 
 ::
 
@@ -16,4 +16,4 @@ use this package.
 
 .. rubric:: Footnotes
 
-.. [#f1] ``text_formatter`` can also be named as ``text-formatter``. Actually, on PyPI (the *Python Package Index*), you'll find this project as ``text-formatter`` (http://pypi.org/project/text-formatter). Anyway, we are keeping the original name for this documentation.
+.. [#f1] ``text_formatter`` can also be named as ``text-formatter``. Actually, on PyPI (the *Python Package Index*), `you'll find this project <http://pypi.org/project/text-formatter>`_ under the name ``text-formatter``. Anyway, we are keeping the original name for this documentation.
