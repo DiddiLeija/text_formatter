@@ -1,3 +1,5 @@
+.. _module-check:
+
 ``text_formatter.check`` - Check the text types, to see if they can be used on other ``text_formatter`` functions
 ================================================================================================================
 
