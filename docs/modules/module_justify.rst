@@ -1,4 +1,4 @@
-:doc:`module-justify`
+.. _module-justify:
 
 ``text_formatter.justify`` - Justify the strings, according to a certain length
 ================================================================================
