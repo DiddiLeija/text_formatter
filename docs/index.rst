@@ -21,7 +21,7 @@ These are the actual contents of this documentation:
 
 * Contents of ``text_formatter``
 
-  * :ref:`module-justify` - Justify the strings according to a certain length
+  * :ref:`module-justify`
 
 .. rubric:: Footnotes
 
