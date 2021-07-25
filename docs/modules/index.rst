@@ -1,3 +1,5 @@
+.. module-index-page:
+
 Package contents
 ================
 
