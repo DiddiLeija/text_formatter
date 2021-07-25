@@ -19,7 +19,7 @@ Table of contents
 
 These are the actual contents of this documentation:
 
-* Contents of ``text_formatter``
+* :ref:`module-index-page`
 
   * :ref:`module-justify`
   * :ref:`module-check`
