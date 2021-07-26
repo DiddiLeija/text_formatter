@@ -8,6 +8,8 @@
 This module provides functions to modify the length of some text Python types, like ``str`` or ``bytes``.
 
 .. py:function:: text_formatter.justify.justify(s, l)
+   
+   :param s: The string to be justified.
+   :param l: The expected length *per line*.
 
-  A simple function to justify strings. ``s`` is the string, and ``l`` is the expected
-  length per line.
+   A simple function to justify strings. It uses ``text_formatter.check.checkString()`` for testing ``s``.
