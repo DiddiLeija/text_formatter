@@ -14,6 +14,6 @@ other ``text_formatter`` submodules.
    :param strict: If `True`, use a stricter algorithm for checking.
 
    Checks if a string can be used by ``text_formatter``. In general, it checks if no region-specific characters are used. If ``strict`` is True, this function will only accept  
-   letters and digits (not symbols!). If something fails, it raises an `InvalidString` exception from `text_formatter.exceptions`.
+   letters and digits (not symbols!). If something fails, it raises an ``InvalidString`` exception from ``text_formatter.exceptions``.
    
-   In most of the cases, this function is being used by internal `text_formatter` functions.
+   In most of the cases, this function is being used by internal ``text_formatter`` functions.
