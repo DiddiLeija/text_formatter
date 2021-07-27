@@ -13,12 +13,10 @@ This module provides functions to modify the length of some text Python types, l
    :param int l: The expected length *per line*.
    :return: The string adjusted to the given length *per line*.
    :rtype: str
-   :raises text_formatter.exceptions.InvalidString: if the applied ``text_formatter.check.checkString()`` test fails [#f1]_ [#f2]_.
+   :raises text_formatter.exceptions.InvalidString: if the applied ``text_formatter.check.checkString()`` test fails [#f1]_.
 
-   A simple function to justify strings. It uses ``text_formatter.check.checkString()`` [#f2]_ for testing ``s``.
+   A simple function to justify strings. It uses ``text_formatter.check.checkString()`` [#f1]_ for testing ``s``.
 
 .. rubric:: Footnotes
 
-.. [#f1] See the reference for ``text_formatter.exceptions`` `here <https://text-formatter.readthedocs.io/en/latest/modules/module_exception.html>`_.
-
-.. [#f2] See the reference for ``text_formatter.check`` `here <https://text-formatter.readthedocs.io/en/latest/modules/module_check.html>`_
+.. [#f1] See the reference for ``text_formatter.check`` `here <https://text-formatter.readthedocs.io/en/latest/modules/module_check.html>`_.
