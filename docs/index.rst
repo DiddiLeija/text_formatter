@@ -23,6 +23,7 @@ These are the actual contents of this documentation:
 
   * :ref:`module-justify`
   * :ref:`module-check`
+  * :ref:`module-exceptions`
 
 .. rubric:: Footnotes
 
