@@ -21,14 +21,14 @@ other ``text_formatter`` submodules.
    
    In most of the cases, this function is being used by internal ``text_formatter`` functions.
 
-.. py:data:: strict_allowed_chars
+.. py:data:: text_formatter.check.strict_allowed_chars
 
    :type: str
    :value: ``"ABCDEFGHIJKLMNOPKRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890"``
    
    The string used by ``checkString()`` when the arg ``strict`` is True. Basically, it is the result of ``string.ascii_letters + string.string_digits``.
 
-.. py:data:: allowed_string_chars
+.. py:data:: text_formatter.check.allowed_string_chars
 
    :type: str
    :value: ``"ABCDEFGHIJKLMNOPKRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890-$#%/()=!'<>.:,;[]{}*+?¿¡\" "``
