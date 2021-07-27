@@ -16,6 +16,11 @@ This module provides functions to modify the length of some text Python types, l
    :raises text_formatter.exceptions.InvalidString: if the applied ``text_formatter.check.checkString()`` test fails [#f1]_.
 
    A simple function to justify strings. It uses ``text_formatter.check.checkString()`` [#f1]_ for testing ``s``.
+   
+   .. warning::
+   
+      This function needs a larger development, so the actual documentation could be incomplete. See <http://github.com/DiddiLeija/text_formatter/issues/1>
+      for more information.
 
 .. rubric:: Footnotes
 
