@@ -27,7 +27,7 @@ These are the actual contents of this documentation:
   * :ref:`module-check`
   * :ref:`module-exceptions`
 
-.. warning::
+.. note::
 
    ``text_formatter`` (and its documentation) is under construction. We need contributors to make this project
    to grow.
