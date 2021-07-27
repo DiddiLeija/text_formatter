@@ -10,6 +10,8 @@ To install it, use `pip <http://pip.pypa.io>`_:
 
     pip install text_formatter
 
+(To upgrade, use: ``pip install --upgrade text_formatter``).
+
 At this documentation, you'll find useful information about functions,
 methods, topics, terms, and many other things you will need to
 use this package.
@@ -24,6 +26,25 @@ These are the actual contents of this documentation:
   * :ref:`module-justify`
   * :ref:`module-check`
   * :ref:`module-exceptions`
+
+.. warning::
+
+   ``text_formatter`` (and its documentation) is under construction. We need contributors to make this project
+   to grow.
+   
+   Also, as we are building these pages fastly, some unexpected changes may ocurr in a few days. By now, we can say this
+   documentation is not "stable" at all.
+
+License
+-------
+
+This project is licensed by the `MIT License <http://github.com/diddileija/text_formatter/blob/main/LICENSE.txt>`_.
+
+How to contribute
+-----------------
+
+See the `Contributing guidelines document <http://github.com/diddileija/text_formatter/blob/main/CONTRIBUTING.md>`_ to see how to contribute
+to the ``text_formatter`` project, which includes this documentation page.
 
 .. rubric:: Footnotes
 
