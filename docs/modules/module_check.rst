@@ -12,8 +12,26 @@ other ``text_formatter`` submodules.
 
    :param s: String passed to be tested.
    :param strict: If `True`, use a stricter algorithm for checking.
+   :return: Nothing.
+   :rtype: None
+   :raises text_formatter.exceptions.InvalidString: if the string does not satisfies the expected.
 
    Checks if a string can be used by ``text_formatter``. In general, it checks if no region-specific characters are used. If ``strict`` is True, this function will only accept  
-   letters and digits (not symbols!). If something fails, it raises an ``InvalidString`` exception from ``text_formatter.exceptions``.
+   letters and digits (not symbols!).
    
    In most of the cases, this function is being used by internal ``text_formatter`` functions.
+
+.. py:data:: strict_allowed_chars
+
+   :type: str
+   :value: ``"ABCDEFGHIJKLMNOPKRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890"``
+   
+   The string used by ``checkString()`` when the arg ``strict`` is True. Basically, it is the result of ``string.ascii_letters + string.string_digits``.
+
+.. py:data:: allowed_string_chars
+
+   :type: str
+   :value: ``"ABCDEFGHIJKLMNOPKRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890-$#%/()=!'<>.:,;[]{}*+?¿¡\" "``
+   
+   A more-inclusive string, the default for ``checkString``. It includes all around ``strict_allowed_chars``, and also includes symbols, quotes,
+   and spaces.
