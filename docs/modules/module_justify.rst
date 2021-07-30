@@ -18,8 +18,9 @@ This module provides functions to modify the length of some text Python types, l
    A simple function to justify strings. It uses ``text_formatter.check.checkString()`` [#f1]_ for testing ``s``.
    
    .. warning::
-   
-      This function needs a larger development, so the actual documentation could be incomplete. See <http://github.com/DiddiLeija/text_formatter/issues/1>
+      
+      Even when this documentation is telling that ``justify()`` returns the adjusted string, at this moment it only returns an unmodified
+      ``s``. This function needs a larger development, so the actual documentation is not stable at all. See http://github.com/DiddiLeija/text_formatter/issues/1
       for more information.
 
 .. rubric:: Footnotes
