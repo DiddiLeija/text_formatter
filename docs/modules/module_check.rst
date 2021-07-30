@@ -24,14 +24,13 @@ other ``text_formatter`` submodules.
 .. py:data:: text_formatter.check.strict_allowed_chars
 
    :type: str
-   :value: ``"ABCDEFGHIJKLMNOPKRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890"``
+   :value: ``"ABCDEFGHIJKLMNOPKRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890 "``
    
-   The string used by ``checkString()`` when the arg ``strict`` is True. Basically, it is the result of ``string.ascii_letters + string.string_digits``.
+   The string used by ``checkString()`` when the arg ``strict`` is True. Basically, it is the result of ``string.ascii_letters + string.string_digits + " "``.
 
 .. py:data:: text_formatter.check.allowed_string_chars
 
    :type: str
    :value: ``"ABCDEFGHIJKLMNOPKRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890-$#%/()=!'<>.:,;[]{}*+?¿¡\" "``
    
-   A more-inclusive string, the default for ``checkString``. It includes all around ``strict_allowed_chars``, and also includes symbols, quotes,
-   and spaces.
+   A more-inclusive string, the default for ``checkString``. It includes all around ``strict_allowed_chars``, and also includes symbols, quotes, etc.
