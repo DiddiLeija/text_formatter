@@ -1,8 +1,9 @@
 ---
 name: Release Tracker (for maintainers only)
 about: An issue to track a release.
-title: ''
+title: "[$version] release"
 labels: Release tracker
+assignees: ''
 
 ---
 
@@ -13,3 +14,11 @@ This is the tracking issue for version `(version)` of **text\_formatter**.
 - [ ] Make GitHub release and tag
 - [ ] Upload package to http://pypi.org/project/text_formatter
 - [ ] Make note on project [`text_formatter - Project board`](https://github.com/users/DiddiLeija/projects/4#column-14845989)
+
+
+<!----------------------------
+Good titles for these issues:
+
+"[$version] release"
+"[$due date] release"
+------------------------------>

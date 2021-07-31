@@ -2,7 +2,7 @@
 name: Bug report
 about: Create a report to help us improve
 title: ''
-labels: bug, Please triage this
+labels: Please triage this, bug
 assignees: ''
 
 ---

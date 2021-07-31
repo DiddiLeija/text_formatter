@@ -2,8 +2,8 @@
 name: Security vulnerability issue
 about: An issue about a security vulnerability
 title: ''
-labels: Security Issue, Please triage this
-asignees: DiddiLeija
+labels: Please triage this, Security Issue
+assignees: ''
 
 ---
 
