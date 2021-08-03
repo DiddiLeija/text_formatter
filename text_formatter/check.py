@@ -12,7 +12,7 @@ from text_formatter.exceptions import InvalidString
 
 # generate an "allowed characters list" for strings
 strict_allowed_chars = string.ascii_letters + string.digits + " " # allow a space
-allowed_string_chars = strict_allowed_strings_chars + "_-$#%/()=!'<>.:,;[]{}*+?¿¡" + '"' # The last one is to include double quotes ("")
+allowed_string_chars = strict_allowed_chars + "_-$#%/()=!'<>.:,;[]{}*+?¿¡" + '"' # The last one is to include double quotes ("")
 
 def checkString(s: str, strict: bool = False) -> None:
   """
