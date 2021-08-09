@@ -41,5 +41,6 @@ setuptools.setup(
         "Documentation": "http://text-formatter.readthedocs.io", # ReadTheDocs site
         "Tracker": "http://github.com/diddileija/text_formatter/issues", # GitHub issues page
         "Source": "http://github.com/diddileija/text_formatter" # source code on GitHub
-    }
+    },
+    zip_safe=False
 )
