@@ -10,7 +10,6 @@ extensions = [
     "sphinx.ext.extlinks",
     "sphinx.ext.intersphinx",
     # third-party
-    "myst_parser",
     "sphinx_copybutton",
     "recommonmark"
 ]
@@ -19,4 +18,3 @@ project = "text_formatter"
 copyright = "Diego Ramirez"
 
 # myst_parser options
-myst_enable_extensions = ["deflist"]
