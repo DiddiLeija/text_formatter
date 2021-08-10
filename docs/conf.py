@@ -11,7 +11,7 @@ extensions = [
     "sphinx.ext.intersphinx",
     # third-party
     "myst_parser",
-    "sphinx_copybutton"
+    "sphinx_copybutton",
     "recommonmark"
 ]
 
