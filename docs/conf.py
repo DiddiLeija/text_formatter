@@ -10,7 +10,7 @@ extensions = [
     "sphinx.ext.extlinks",
     "sphinx.ext.intersphinx",
     # third-party
-    #"myst_parser", # ignore this one (by now)
+    "myst_parser",
     "sphinx_copybutton"
 ]
 
@@ -18,7 +18,7 @@ project = "text_formatter"
 copyright = "Diego Ramirez"
 
 # by now, set ".rst" as the source suffix
-source_suffix = ".rst"
+source_suffix = [".rst", ".md"]
 
 # myst_parser options
-#myst_enable_extensions = ["deflist"]
+myst_enable_extensions = ["deflist"]
