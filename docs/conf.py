@@ -12,6 +12,7 @@ extensions = [
     # third-party
     "myst_parser",
     "sphinx_copybutton"
+    "recommonmark"
 ]
 
 project = "text_formatter"
