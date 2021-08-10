@@ -10,7 +10,7 @@ This module provides functions to modify the length of some text Python types, l
 .. py:function:: text_formatter.justify.justify(s, l)
    
    :param str s: The string to be justified.
-   :param int l: The expected length *per line*.
+   :param int length: The expected length *per line*.
    :return: The string adjusted to the given length *per line*.
    :rtype: str
    :raises text_formatter.exceptions.InvalidString: if the applied ``text_formatter.check.checkString()`` test fails [#f1]_.
