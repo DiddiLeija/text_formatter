@@ -1,8 +1,10 @@
 import setuptools
 
+# look for the README file
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
+# setup
 setuptools.setup(
     name="text_formatter",
     version="1.0.0dev4",
