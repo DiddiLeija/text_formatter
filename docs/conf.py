@@ -18,8 +18,5 @@ extensions = [
 project = "text_formatter"
 copyright = "Diego Ramirez"
 
-# by now, set ".rst" as the source suffix
-source_suffix = [".rst", ".md"]
-
 # myst_parser options
 myst_enable_extensions = ["deflist"]
