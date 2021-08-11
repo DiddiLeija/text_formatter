@@ -13,7 +13,7 @@ This module provides functions to modify the length of some text Python types, l
    :param int length: The expected length *per line*.
    :return: The string adjusted to the given length *per line*.
    :rtype: str
-   :raises text_formatter.exceptions.InvalidString: if the applied text_formatter.check.checkString() test fails.
+   :raises text_formatter.exceptions.InvalidString: if the applied tests failed.
 
    A simple function to justify strings. It uses ``text_formatter.check.checkString()`` [#f1]_ for testing ``s``.
    
