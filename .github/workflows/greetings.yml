@@ -1,0 +1,16 @@
+name: Greetings
+
+on: [pull_request, issues]
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
+    steps:
+    - uses: actions/first-interaction@v1
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        issue-message: 'Thanks for your first issue! The `text_formatter` maintainers will try to help or support you, as soon as possible. We really appreciate your recent contribution.'
+        pr-message: 'Thanks for your first pull request! We really appreciate your contribution. Now, you may need a maintainer to review the code and give you some style suggestions.'
