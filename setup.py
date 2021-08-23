@@ -1,13 +1,14 @@
 import setuptools
 
-# look for the README file
+# look for the README.md file for the long description
+# on the metadata
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
-# setup
+# package setup
 setuptools.setup(
     name="text_formatter",
-    version="1.0.0dev4",
+    version="1.0.0dev6",
     author="Diego Ramirez",
     author_email="dr01191115@gmail.com",
     description="Pretty formatter for Python strings.",
