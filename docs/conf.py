@@ -10,8 +10,7 @@ extensions = [
     "sphinx.ext.extlinks",
     "sphinx.ext.intersphinx",
     # third-party
-    "sphinx_copybutton",
-    "recommonmark"
+    "sphinx_copybutton"
 ]
 
 project = "text_formatter"
