@@ -40,6 +40,6 @@ jobs:
     - name: Test the imports with isort
       run: |
         # try to check every Python file with isort
-        isort **/*.py --check-only
+        isort **/*.py --check-only -v
     - name: Finalize the test
       run: python -c "print('Process completed succesfully!')"
