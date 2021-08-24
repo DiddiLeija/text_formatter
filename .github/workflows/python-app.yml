@@ -39,7 +39,10 @@ jobs:
         flake8 . --count --max-complexity=10 --max-line-length=127 --statistics
     - name: Test the imports with isort
       run: |
-        # try to check every Python file with isort
+        # try to check every Python file with isort,
+        # those inside folders:
         isort **/*.py --check-only -v
+        # but also outside the folders:
+        isort *.py --check-only -v
     - name: Finalize the test
       run: python -c "print('Process completed succesfully!')"
