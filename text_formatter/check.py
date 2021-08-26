@@ -39,7 +39,7 @@ def checkString(s: str, strict: bool = False) -> None:
     return None
 
 
-def checkBytes(b: bytes, strict: bool = False) -> None:
+def checkBytes(b: bytes) -> None:
     "The same than text_formatter.check.checkString(), but testing bytes."
     # check the type
     if not isinstance(b, bytes):
