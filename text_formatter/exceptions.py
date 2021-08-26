@@ -9,3 +9,11 @@ class InvalidString(Exception):
     argument is not what we expected.
     """
     pass
+
+
+class InvalidBytes(Exception):
+    """
+    The same function than InvalidString,
+    but applied to bytestrings.
+    """
+    pass
