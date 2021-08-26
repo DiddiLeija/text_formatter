@@ -4,7 +4,7 @@ Justify the strings, according to a certain length.
 
 __all__ = ["justify", "justify_bytes"]
 
-from text_formatter.check import *
+from text_formatter.check import checkString, checkBytes
 
 
 def justify(s: str, length: int) -> str:
