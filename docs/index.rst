@@ -21,7 +21,7 @@ Table of contents
 
 These are the actual contents of this documentation:
 
-* Package contents
+* :ref:`module-docs-index`
 
   * :ref:`module-justify`
   * :ref:`module-check`
