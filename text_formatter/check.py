@@ -42,12 +42,12 @@ def checkString(s: str, strict: bool = False) -> None:
 def checkBytes(b: bytes, strict: bool = False) -> None:
     "The same than text_formatter.check.checkString(), but testing bytes."
     # check the type
-    if not isinstance(s, bytes):
-        raise TypeError(f"Expected bytestrings, but got {type(s).__name__}")
+    if not isinstance(b, bytes):
+        raise TypeError(f"Expected bytestrings, but got {type(b).__name__}")
     ruler = strict_bytes
     # now, check the bytestring
-    for char in s:
-        if s not in ruler:
+    for char in b:
+        if b not in ruler:
             raise InvalidBytes(f"String didn't satisfied what we expected: char '{char}' is not on the allowed chars")
     # everything passed? Just return None
     return None
