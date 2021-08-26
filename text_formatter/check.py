@@ -7,7 +7,7 @@ Check the text types, to see if they can be used on other
 import string
 
 # get a custom exception from ``text_formatter.exceptions``
-from text_formatter.exceptions import InvalidString, InvalidBytes
+from text_formatter.exceptions import InvalidBytes, InvalidString
 
 # generate an "allowed characters list" for strings
 strict_allowed_chars = string.ascii_letters + string.digits + " "  # allow a space
