@@ -21,7 +21,7 @@ Table of contents
 
 These are the actual contents of this documentation:
 
-* :ref:`module-docs-index`
+* `Package contents <https://text-formatter.readthedocs.io/en/latest/modules/index.html>`_
 
   * :ref:`module-justify`
   * :ref:`module-check`
