@@ -8,6 +8,9 @@
 This module has functions to test strings and other text types, to see if they can be easily used by
 other ``text_formatter`` submodules.
 
+Stuff to test strings
+---------------------
+
 .. py:function:: text_formatter.check.checkString(s, strict=False)
 
    :param s: String passed to be tested.
@@ -34,3 +37,23 @@ other ``text_formatter`` submodules.
    :value: ``"ABCDEFGHIJKLMNOPKRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890-$#%/()=!'<>.:,;[]{}*+?¿¡\" "``
    
    A more-inclusive string, the default for ``checkString``. It includes all around ``strict_allowed_chars``, and also includes symbols, quotes, etc.
+
+Stuff to test bytes
+-------------------
+
+.. py:function:: text_formatter.check.checkBytes(b)
+
+   :param b: Bytestring to be tested.
+   :return: Nothing
+   :rtype: None
+   :raises text_formatter.exceptions.InvalidString: if the bytes are not what we expected.
+   
+   This is function is similar to ``checkString``, with the following differences:
+   
+   * The parameter ``strict`` does not exist here, we are using only one ruler to test.
+   * The parameter names, the exception raised and the ruler are different.
+   
+   .. note::
+      
+      The ruler used on this function is limited. Many errors could result, even on
+      a normal text.
