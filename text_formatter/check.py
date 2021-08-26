@@ -13,6 +13,10 @@ from text_formatter.exceptions import InvalidString
 strict_allowed_chars = string.ascii_letters + string.digits + " "  # allow a space
 allowed_string_chars = strict_allowed_chars + "_-$#%/()=!'<>.:,;[]{}*+?¿¡" + '"'  # include double quotes ("")
 
+# The same for the bytes
+strict_bytes = bytes(strict_allowed_chars, "utf-8")
+allowed_bytes = strict_bytes + b"_-$#%/()=!'<>.:,;[]{}*+?¿¡" + b'"'
+
 
 def checkString(s: str, strict: bool = False) -> None:
     """
@@ -20,8 +24,8 @@ def checkString(s: str, strict: bool = False) -> None:
     """
     # check the string
     if not isinstance(s, str):
-        raise TypeError(f"Expected strings, but got {type(s)}")
-    # check if the user wants a "strict" mode: If we wants to,
+        raise TypeError(f"Expected strings, but got {type(s).__name__}")
+    # check if the user wants a "strict" mode: If he wants to,
     # we are using a stricter ruler for checking the string.
     if strict is True:
         ruler = strict_allowed_chars
@@ -31,5 +35,24 @@ def checkString(s: str, strict: bool = False) -> None:
     for char in s:
         if s not in ruler:
             raise InvalidString(f"String didn't satisfied what we expected: char '{char}' is not on the allowed chars")
+    # everything passed? Just return None
+    return None
+
+
+def checkBytes(b: bytes, strict: bool = False) -> None:
+    "The same than text_formatter.check.checkString(), but testing bytes."
+    # check the type
+    if not isinstance(s, bytes):
+        raise TypeError(f"Expected bytestrings, but got {type(s).__name__}")
+    # check if the user wants a "strict" mode: If he wants to,
+    # we are using a stricter ruler for checking.
+    if strict is True:
+        ruler = strict_bytes
+    else:
+        ruler = allowed_bytes
+    # now, check the bytestring
+    for char in s:
+        if s not in ruler:
+            raise InvalidBytes(f"String didn't satisfied what we expected: char '{char}' is not on the allowed chars")
     # everything passed? Just return None
     return None
