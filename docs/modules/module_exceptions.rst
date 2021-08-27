@@ -14,3 +14,7 @@ standard Python exceptions, or subclasses of one of our exceptions.
 .. py:exception:: text_formatter.exceptions.InvalidString
 
    Basic exception, raised when a string argument cannot be used by ``text_formatter``.
+
+.. py:exception:: text_formatter.exceptions.InvalidBytes
+
+   Exception raised when a bytestring is considered invalid.
