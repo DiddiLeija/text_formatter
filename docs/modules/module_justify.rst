@@ -32,7 +32,7 @@ This module provides functions to modify the length of some text Python types, l
    :rtype: bytes
    :raises text_formatter.exceptions.InvalidBytes: if the applied tests fail.
    
-   Probably the same than text_formatter.justify.justify, but converting byte-like strings instead
+   Probably the same than ``justify()``, but converting byte-like strings instead
    of Python strings.
    
    .. warning::
