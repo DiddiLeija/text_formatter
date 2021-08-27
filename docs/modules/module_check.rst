@@ -48,7 +48,7 @@ Stuff to test bytes
    :rtype: None
    :raises text_formatter.exceptions.InvalidString: if the bytes are not what we expected.
    
-   This is function is similar to ``checkString``, with the following differences:
+   This function is similar to ``checkString``, with the following differences:
    
    * The parameter ``strict`` does not exist here, we are using only one ruler to test.
    * The parameter names, the exception raised and the ruler are different.
@@ -57,3 +57,11 @@ Stuff to test bytes
       
       The ruler used on this function is limited. Many errors could result, even on
       a normal text.
+   
+.. py:data:: text_formatter.check.strict_bytes
+   
+   :type: bytes
+   :value: ``b"ABCDEFGHIJKLMNOPKRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890 "``
+   
+   This bytestring is the ruler used by text_formatter.check.checkBytes. As you can see,
+   it is a bytes version of text_formatter.check.strict_allowed_chars.
