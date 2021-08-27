@@ -56,12 +56,16 @@ Stuff to test bytes
    .. note::
       
       The ruler used on this function is limited. Many errors could result, even on
-      a normal text.
+      a normal text. We'll try to enable more characters in the future.
    
 .. py:data:: text_formatter.check.strict_bytes
    
    :type: bytes
    :value: ``b"ABCDEFGHIJKLMNOPKRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890 "``
    
-   This bytestring is the ruler used by text_formatter.check.checkBytes. As you can see,
-   it is a bytes version of text_formatter.check.strict_allowed_chars.
+   This bytestring is the ruler used by ``checkBytes()``. As you can see,
+   it is a bytes version of ``text_formatter.check.strict_allowed_chars``.
+   
+   .. note::
+   
+      This ruler is really limited, see the note for ``checkBytes``.
