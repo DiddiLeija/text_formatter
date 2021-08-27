@@ -7,7 +7,7 @@
 
 This module provides functions to modify the length of some text Python types, like ``str`` or ``bytes``.
 
-.. py:function:: text_formatter.justify.justify(s, l)
+.. py:function:: text_formatter.justify.justify(s, length)
    
    :param str s: The string to be justified.
    :param int length: The expected length *per line*.
@@ -15,15 +15,31 @@ This module provides functions to modify the length of some text Python types, l
    :rtype: str
    :raises text_formatter.exceptions.InvalidString: if the applied tests failed.
 
-   A simple function to justify strings. It uses ``text_formatter.check.checkString()`` [#f1]_ for testing ``s``.
+   A simple function to justify strings. It uses text_formatter.check.checkString for testing ``s``.
    
    .. warning::
       
       Even when this documentation is telling that ``justify()`` returns the adjusted string, at this moment it only returns an unmodified
       ``s``. This function needs a larger development, so the actual documentation is not stable at all.
       
-      See http://github.com/DiddiLeija/text_formatter/issues/1 for more information.
+      Actually the whole project needs a more-stable development [#f1]_.
+
+.. py:function:: text_formatter.justify.justify_bytes(b, length)
+
+   :param bytes b: The bytestring to be justified.
+   :param length: The expected length *per line*.
+   :return: The bytestring adjusted to length ``length``.
+   :rtype: bytes
+   :raises text_formatter.exceptions.InvalidBytes: if the applied tests fail.
+   
+   Probably the same than text_formatter.justify.justify, but converting byte-like strings instead
+   of Python strings.
+   
+   .. warning::
+   
+      Just like ``justify()``, this function hasn't been completed (yet), like most of the
+      ``text_formatter`` features [#f1]_.
 
 .. rubric:: Footnotes
 
-.. [#f1] See the reference for ``text_formatter.check`` `here <https://text-formatter.readthedocs.io/en/latest/modules/module_check.html>`_.
+.. [#f1] See http://github.com/DiddiLeija/text_formatter/issues/7 for more information.
