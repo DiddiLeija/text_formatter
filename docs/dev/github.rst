@@ -1,3 +1,5 @@
+.. _github-features:
+
 GitHub features used on ``text_formatter``
 ==========================================
 
