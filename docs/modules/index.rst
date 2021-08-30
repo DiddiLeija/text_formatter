@@ -1,4 +1,4 @@
-.. module-docs-index:
+.. _module-docs-index:
 
 Contents of ``text_formatter``
 ==============================
