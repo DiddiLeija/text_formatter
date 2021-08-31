@@ -27,7 +27,7 @@ These are the actual contents of this documentation:
   * :ref:`module-check`
   * :ref:`module-exceptions`
 
-* Developer pages
+* :ref:`dev-pages-index`
 
   * :ref:`contributions-page`
   * :ref:`github-features`
