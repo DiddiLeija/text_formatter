@@ -51,6 +51,8 @@ How to contribute
 See the `Contributing guidelines document <http://github.com/diddileija/text_formatter/blob/main/CONTRIBUTING.md>`_ to see how to contribute
 to the ``text_formatter`` project, which includes this documentation page.
 
+Also, see ":ref:`contributions-page`".
+
 .. rubric:: Footnotes
 
 .. [#f1] ``text_formatter`` can also be named as ``text-formatter``. Actually, on PyPI (the *Python Package Index*), `you'll find this project <http://pypi.org/project/text-formatter>`_ under the name ``text-formatter``. Anyway, we are keeping the original name for this documentation.
