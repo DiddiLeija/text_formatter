@@ -52,6 +52,12 @@ We have also created issue templates to ease the issue creation. The templates m
    not a maintainer of ``text_formatter``, *please don't open that kind of issues*. We'll ignore those special issues if they were created
    without permission.
 
+Contributions to documentation
+------------------------------
+
+Since we are saving the documentation files on the same repository than the code, the same things apply for
+contributing to the documentation.
+
 Maintainers of the code
 -----------------------
 
