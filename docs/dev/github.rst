@@ -27,6 +27,12 @@ On pull requests, it says:
 
     Thanks for your first pull request! We really appreciate your contribution. Now, you may need a maintainer to review the code and give you some style suggestions.
 
+The `lock-threads` workflow
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+This workflow closes issues and pull requests with a certain period of inactivity. See
+the reference for the workflow `here <http://github/dessant/lock-threads>`_.
+
 GitHub bots
 -----------
 
@@ -35,16 +41,7 @@ These bots are used on the GitHub interface for issues and pull requests.
 Dependabot [#f1]_
    This bot is only used to keep some GitHub actions fresh.
 
-Lock [#f2]_
-   This bot locks outdated conversation and applies a related label.
-   
-   .. warning::
-   
-      We are planning to move this bot into a GitHub action provided by the same user,
-      named ``lock-threads`` [#f3]_, to implement it on a new workflow.
-   
-
-No-response [#f4]_
+No-response [#f2]_
    This bot has a more-complex function. When we want more information/response from the author of a pull request/issue,
    we apply an ``Awaiting response`` label. After 15 days, if the author hasn't answered, this bot will close it.
 
@@ -62,6 +59,4 @@ Read about how to use those templates on ":ref:`contributions-page`".
 .. rubric:: Footnotes
 
 .. [#f1] See the reference for ``dependabot`` `here <https://github.com/apps/dependabot>`_.
-.. [#f2] See the reference for ``lock`` `here <https://github.com/apps/lock>`_.
-.. [#f3] See the reference for ``lock-threads`` `at this link <https://github.com/marketplace/actions/lock-threads>`_.
-.. [#f4] See the reference for ``no-response`` `here <https://github.com/apps/no-response>`_.
+.. [#f2] See the reference for ``no-response`` `here <https://github.com/apps/no-response>`_.
