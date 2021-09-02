@@ -1,0 +1,29 @@
+on:
+  schedule:
+    - cron: '0 * * * *'
+
+permissions:
+  issues: write
+  pull-requests: write
+
+jobs:
+  action:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Lock thread
+      - uses: dessant/lock-threads@v2
+      - with:
+          # Issue specific options
+          issue-lock-inactive-days: 30 # 30 days before locking
+          issue-exclude-labels: [ "Do not lock this" ]
+          issue-lock-comment: >
+            This issue has been automatically locked since there
+            has not been any recent activity after it was closed.
+            Please open a new issue for related bugs
+          # PR specific options
+          pr-lock-inactive-days: 60 # wait 2 months aprox.
+          pr-exclude-labels: [ "Do not lock this" ]
+          pr-lock-comment: >
+            This pull request has been automatically locked since there
+            has not been any recent activity after it was closed.
+            Please open a new issue for related bugs.
