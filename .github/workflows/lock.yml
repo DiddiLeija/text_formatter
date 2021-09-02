@@ -20,6 +20,7 @@ jobs:
             This issue has been automatically locked since there
             has not been any recent activity after it was closed.
             Please open a new issue for related bugs
+          issue-lock-label: "Outdated and locked"
           # PR specific options
           pr-lock-inactive-days: 60 # wait 2 months aprox.
           pr-exclude-labels: "Do not lock this"
@@ -27,5 +28,6 @@ jobs:
             This pull request has been automatically locked since there
             has not been any recent activity after it was closed.
             Please open a new issue for related bugs.
+          pr-lock-label: "Outdated and locked"
       - name: Post-workflow message
         run: echo "Workflow completed!"
