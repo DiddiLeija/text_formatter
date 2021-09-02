@@ -27,7 +27,7 @@ On pull requests, it says:
 
     Thanks for your first pull request! We really appreciate your contribution. Now, you may need a maintainer to review the code and give you some style suggestions.
 
-The `lock-threads` workflow
+The ``lock-threads`` workflow
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This workflow closes issues and pull requests with a certain period of inactivity. See
