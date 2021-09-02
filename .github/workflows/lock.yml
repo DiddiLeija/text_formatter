@@ -11,8 +11,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Lock thread
-      - uses: dessant/lock-threads@v2
-      - with:
+        uses: dessant/lock-threads@v2
+        with:
           # Issue specific options
           issue-lock-inactive-days: 30 # 30 days before locking
           issue-exclude-labels: "Do not lock this"
