@@ -13,9 +13,9 @@ This module provides functions to modify the length of some text Python types, l
    :param int length: The expected length *per line*.
    :return: The string adjusted to the given length *per line*.
    :rtype: str
-   :raises text_formatter.exceptions.InvalidString: if the applied tests failed.
+   :raises text_formatter.exceptions.InvalidString: if text_formatter.check.checkString failed.
 
-   A simple function to justify strings. It uses :ref:`text_formatter.check.checkString` for testing ``s``.
+   A simple function to justify strings.
    
    .. warning::
       
@@ -30,7 +30,7 @@ This module provides functions to modify the length of some text Python types, l
    :param length: The expected length *per line*.
    :return: The bytestring adjusted to length ``length``.
    :rtype: bytes
-   :raises text_formatter.exceptions.InvalidBytes: if the applied tests fail.
+   :raises text_formatter.exceptions.InvalidBytes: if text_formatter.check.checkBytes fails.
    
    Probably the same than ``justify()``, but converting byte-like strings instead
    of Python strings.
