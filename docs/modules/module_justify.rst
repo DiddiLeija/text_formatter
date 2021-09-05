@@ -15,7 +15,7 @@ This module provides functions to modify the length of some text Python types, l
    :rtype: str
    :raises text_formatter.exceptions.InvalidString: if the applied tests failed.
 
-   A simple function to justify strings. It uses text_formatter.check.checkString for testing ``s``.
+   A simple function to justify strings. It uses :ref:`text_formatter.check.checkString for testing` ``s``.
    
    .. warning::
       
