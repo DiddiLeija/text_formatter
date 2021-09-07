@@ -1,3 +1,6 @@
-sphinx>=4.0.0
-sphinx_copybutton
-myst_parser
+# Set the docs dependencies as pinned versions. Dependabot
+# may try to update them.
+
+sphinx==4.0.0
+sphinx_copybutton==0.4.0
+myst_parser==0.15.2
