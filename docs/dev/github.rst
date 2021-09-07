@@ -27,6 +27,10 @@ On pull requests, it says:
 
     Thanks for your first pull request! We really appreciate your contribution. Now, you may need a maintainer to review the code and give you some style suggestions.
 
+.. note::
+
+   Except of ``dependabot``, this workflow will absolutely fail if a bot account opened the issue/PR.
+
 The ``lock-threads`` workflow
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
