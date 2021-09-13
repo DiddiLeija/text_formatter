@@ -7,8 +7,9 @@ permissions:
   pull-requests: write
 
 jobs:
-  action:
+  lock_threads:
     runs-on: ubuntu-latest
+    if: github.user != "depndabot"
     steps:
       - name: Lock thread
         uses: dessant/lock-threads@v2
