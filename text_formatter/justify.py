@@ -13,7 +13,7 @@ def justify(s: str, length: int) -> str:
     fit to a specific length (length).
     """
     # check the string introduced
-    checkString(s)
+    checkString(s)gdghad
 
     return s  # This func needs larger development!!! (DiddiLeija/text_formatter#1)
 
