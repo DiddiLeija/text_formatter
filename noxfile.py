@@ -3,6 +3,7 @@
 
 import nox
 
+
 @nox.session(python=["3.6", "3.7", "3.8", "3.9", "3.10"])
 def flake8_lint(session):
     # install flake8
