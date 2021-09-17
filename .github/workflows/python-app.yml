@@ -34,12 +34,12 @@ jobs:
         pip install nox
     - name: Run Nox (Python 3.6 - 3.9)
       # don't believe in this, if we are using Python 3.10
-      if: ${{ matrix.python-version }} != "3.10"
+      if: ${{ matrix.python-version }} != "3.10.0-alpha - 3.10"
       run: |
         nox --non-interactive --session "flake8_lint-${{ matrix.python-version }}"
         nox --non-interactive --session "isort_lint-${{ matrix.python-version }}"
     - name: Run Nox (Python 3.10 specific)
-      if: ${{ matrix.python-version }} == "3.10"
+      if: ${{ matrix.python-version }} == "3.10.0-alpha - 3.10"
       run: |
         nox --non-interactive --session "flake8_lint-3.10"
         nox --non-interactive --session "isort_lint-3.10"
