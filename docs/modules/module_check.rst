@@ -61,7 +61,7 @@ Stuff to test bytes
 .. py:data:: text_formatter.check.strict_bytes
    
    :type: bytes
-   :value: ``b"ABCDEFGHIJKLMNOPKRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890 "``
+   :value: ``b"ABCDEFGHIJKLMNOPKRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890.-_,;:$%/#\"'*+ "``
    
    This bytestring is the ruler used by ``checkBytes()``. As you can see,
    it is a bytes version of ``text_formatter.check.strict_allowed_chars``.
