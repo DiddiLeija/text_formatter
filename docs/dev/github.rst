@@ -29,7 +29,8 @@ On pull requests, it says:
 
 .. note::
 
-   Except of ``dependabot``, this workflow will absolutely fail if a bot account opened the issue/PR.
+   This workflow is currently failing when the PR is submitted by a bot. See the GitHub issue
+   `#40 <https://github.com/DiddiLeija/text_formatter/issues/40>`_ to see the full details.
 
 The ``lock-threads`` workflow
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
