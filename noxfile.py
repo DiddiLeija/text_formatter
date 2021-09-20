@@ -4,10 +4,10 @@
 import nox
 
 
-@nox.session(python=["3.6", "3.7", "3.8", "3.9", "3.10"])
-def flake8_lint(session):
-    # install flake8
-    session.install("flake8")
+@nox.session()
+def test(session):
+    # install flake8 and isort
+    session.install("flake8", "isort")
     # stop the build if there are Python syntax errors
     # or undefined names. Consider that the GitHub editor
     # is 127-characters wide.
@@ -21,13 +21,5 @@ def flake8_lint(session):
       "--show-source",
       "--statistic"
     )
-
-
-@nox.session(python=["3.6", "3.7", "3.8", "3.9", "3.10"])
-def isort_lint(session):
-    # install isort
-    session.install("isort")
-    # try to cover every single file on the repository.
-    # (Maybe we should modify this run in the future)
     session.run("isort", "**/*.py", "--check-only", "-v")
     session.run("isort", "*.py", "--check-only", "-v")
