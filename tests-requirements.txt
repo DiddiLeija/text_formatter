@@ -1,0 +1,2 @@
+# Requirements used on the Python tests.
+nox==2021.6.12
