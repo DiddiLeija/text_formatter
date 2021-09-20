@@ -1,3 +1,5 @@
 # Requirements used on the Python tests. They are
 # pinned, so Dependabot may try to update them.
-nox==2021.6.12
+
+# Use the GitHub repo of Nox
+git+https://github.com/theacodes/nox@2021.6.12
