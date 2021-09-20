@@ -1,5 +1,4 @@
-# Requirements used on the Python tests. They are
-# pinned, so Dependabot may try to update them.
+# Requirements used on the Python tests.
 
-# Use the GitHub repo of Nox
-git+https://github.com/theacodes/nox@2021.6.12
+# Don't pin the Nox dependency
+nox
