@@ -33,10 +33,15 @@ On pull requests, it says:
    `#40 <https://github.com/DiddiLeija/text_formatter/issues/40>`_ to see the full details.
 
 The ``lock-threads`` workflow
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This workflow closes issues and pull requests with a certain period of inactivity. See
 the reference for the workflow `here <http://github/dessant/lock-threads>`_.
+
+Python tests workflows
+^^^^^^^^^^^^^^^^^^^^^^
+
+See ":ref:`ci-description`" to learn about the CI used to test the Python code.
 
 GitHub bots
 -----------
