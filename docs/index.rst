@@ -31,6 +31,7 @@ These are the actual contents of this documentation:
 
   * :ref:`contributions-page`
   * :ref:`github-features`
+  * :ref:`ci-description`
 
 .. note::
 
