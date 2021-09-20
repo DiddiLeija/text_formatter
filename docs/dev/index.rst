@@ -8,3 +8,4 @@ can you make a contribution.
 
 * :ref:`contributions-page`
 * :ref:`github-features`
+* :ref:`ci-description`
