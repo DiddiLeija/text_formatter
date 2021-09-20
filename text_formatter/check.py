@@ -15,7 +15,7 @@ allowed_string_chars = strict_allowed_chars + "_-$#%/()=!'<>.:,;[]{}*+?¿¡" + '
 
 # The same for the bytes. But we only have
 # a strict ruler on this case.
-strict_bytes = bytes(strict_allowed_chars, "utf-8")
+strict_bytes = bytes(strict_allowed_chars+".-_,;:$%/#\"'*+", "utf-8")
 
 
 def checkString(s: str, strict: bool = False) -> None:
