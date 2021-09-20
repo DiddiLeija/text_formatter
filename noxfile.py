@@ -21,5 +21,4 @@ def test(session):
       "--show-source",
       "--statistic"
     )
-    session.run("isort", "**/*.py", "--check-only", "-v")
-    session.run("isort", "*.py", "--check-only", "-v")
+    session.run("isort", ".", "--check-only", "-v")
