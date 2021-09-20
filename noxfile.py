@@ -14,7 +14,7 @@ def test(session):
     session.run(
       "flake8",
       ".",
-      "--exclude=test/lib",
+      "--exclude=.nox/test/lib",
       "--count",
       "--max-complexity=10",
       "--max-line-length=127",
