@@ -14,8 +14,8 @@ def test(session):
     session.run(
       "flake8",
       ".",
+      "--exclude=test/lib",
       "--count",
-      "--select=E9,F63,F7,F82",
       "--max-complexity=10",
       "--max-line-length=127",
       "--show-source",
