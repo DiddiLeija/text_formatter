@@ -1,4 +1,4 @@
-.. ci-description:
+.. _ci-description:
 
 Continous Integrations (CI) used on ``text_formatter``
 =====================================================
