@@ -13,7 +13,9 @@ extensions = [
     "sphinx_copybutton"
 ]
 
+language = "en"
 project = "text_formatter"
-copyright = "Diego Ramirez"
+author = "Diego Ramirez"
+copyright = "2021, Diego Ramirez"
 
-# myst_parser options
+html_sidebars = {"**": ["globaltoc.html", "relations.html", "searchbox.html"]}
