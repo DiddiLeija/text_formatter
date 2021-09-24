@@ -18,4 +18,4 @@ project = "text_formatter"
 author = "Diego Ramirez"
 copyright = "2021, Diego Ramirez"
 
-html_sidebars = {"**": ["globaltoc.html", "relations.html", "searchbox.html"]}
+html_sidebars = {"**": ["searchbox.html"]}
