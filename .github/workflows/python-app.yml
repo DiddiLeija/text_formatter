@@ -36,6 +36,6 @@ jobs:
         cd ..
     - name: Run Nox
       run: |
-        nox --non-interactive
+        nox --non-interactive --sessions test
     - name: Finalize the test
       run: echo 'Process completed succesfully!'
