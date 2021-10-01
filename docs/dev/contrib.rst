@@ -29,8 +29,9 @@ Like most of the projects, we have enabled the `GitHub issues <https://docs.gith
 them to report an unexpected behaviour or a feature request.
 
 .. seealso::
-
-   Read about our GitHub issues at ":ref:`github-issues`".
+   
+   :ref:`github-issues`
+      Read about our GitHub issues, labels, and templates.
 
 Contributions to documentation
 ------------------------------
