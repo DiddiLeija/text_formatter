@@ -11,6 +11,57 @@ Labels
 
 We have labels to identify what does the issue tries to do.
 
+Our labels
+^^^^^^^^^^
+
+They specify what is the issue proposal.
+
+* ``Addition proposal``
+* ``Announcement``
+* ``answered``
+* ``bug``
+* ``bugfix``
+* ``Deletion proposal``
+* ``documentation - ReadTheDocs``
+* ``documentation``
+* ``duplicate``
+* ``enhancement``
+* ``good first issue``
+* ``help wanted``
+* ``invalid``
+* ``Migration proposal``
+* ``Modification proposal``
+* ``Must be discussed``
+* ``Please triage this``
+* ``question``
+* ``Related to automation``
+* ``Related to bots/apps``
+* ``Related to GitHub``
+* ``Related to manifest files``
+* ``Related to text_formatter.check``
+* ``Related to text_formatter.exceptions``
+* ``Related to text_formatter.justify``
+* ``Release tracker``
+* ``Security issue``
+* ``Trivial proposal``
+* ``Undefined proposal``
+* ``wontifx``
+* ``Wrong project``
+
+Dependabot labels
+^^^^^^^^^^^^^^^^^
+
+The Dependabot PRs have a ``dependencies`` label, and most of the times, one of these labels:
+
+* ``python``
+* ``github_actions``
+
+Labels used by ``lock-threads``
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+This action ignores issues with a ``Do not lock this`` label. When it locks
+something, it applies the label ``Outdated and locked``.
+
 Markdown templates
 ------------------
 
