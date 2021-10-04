@@ -88,3 +88,7 @@ We have created issue templates to ease the issue creation. The templates made f
    We have more issue templates, but they were made for the project maintainers (like release trackers and other things). If you are
    not a maintainer of ``text_formatter``, *please don't open that kind of issues*. We'll ignore those special issues if they were created
    without permission.
+
+.. rubric:: Footnotes
+
+.. [#f1] See the reference for ``no-response`` `here <https://github.com/apps/no-response>`_.
