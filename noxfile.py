@@ -16,7 +16,6 @@ def test(session):
       ".",
       "--count",
       "--show-source",
-      "--statistic",
-      "--verbose"
+      "--statistic"
     )
     session.run("isort", ".", "--check-only", "-v")
