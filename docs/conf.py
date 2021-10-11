@@ -17,5 +17,3 @@ language = "en"
 project = "text_formatter"
 author = "Diego Ramirez"
 copyright = "2021, Diego Ramirez"
-
-html_sidebars = {"**": ["searchbox.html"]}
