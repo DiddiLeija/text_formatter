@@ -17,7 +17,11 @@ Use them for reporting security vulnerabilities.
 
 A clear description of the security issue.
 
-**How to reproduce the issue (if available)**
+**Do you have a solution in mind? Please describe.**
+
+If you know how to fix this, describe it here.
+
+**How to reproduce the issue**
 
 1. Open "..."
 2. Run "..."
