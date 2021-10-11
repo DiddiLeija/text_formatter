@@ -15,3 +15,6 @@ include CONTRIBUTING.md
 # exclude the GitHub-specific / Git contents
 exclude .github/*
 exclude .gitignore
+
+# exclude the tests
+exclude tests/
