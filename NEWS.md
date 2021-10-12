@@ -38,4 +38,4 @@ people on this.
 
 This is the first release for `text_formatter`! At this point, we need more people to make the
 project grow. Go to [CONTRIBUTING.md](http://github.com/diddileija/text_formatter/blob/main/CONTRIBUTING.md) if you want to
-help us!
+help us! (Also, read the [contributions page at our documentation](https://text-formatter.readthedocs.io/en/latest/dev/contrib.html#contributions-page))
