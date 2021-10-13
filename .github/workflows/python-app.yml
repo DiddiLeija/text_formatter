@@ -14,10 +14,9 @@ on:
 jobs:
   build:
 
-    runs-on: ${{matrix.os}}
+    runs-on: ubuntu-latest
     strategy:
       matrix:
-        os: [ubuntu-latest]
         python-version: [3.6, 3.7, 3.8, 3.9, "3.10"] # all the versions intended for text-formatter
 
     steps:
@@ -27,7 +26,7 @@ jobs:
       with:
         python-version: ${{ matrix.python-version }}
     - name: Display Python version
-      run: python -c "import sys; print('Current Python version:', sys.version)"
+      run: python -c "import sys; print('Python version:', sys.version)"
     - name: Install pip dependencies
       run: |
         python -m pip install --upgrade pip setuptools
@@ -36,6 +35,6 @@ jobs:
         cd ..
     - name: Run Nox
       run: |
-        nox --non-interactive --sessions test
+        nox --non-interactive -s test
     - name: Finalize the test
       run: echo 'Process completed succesfully!'
