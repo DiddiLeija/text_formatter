@@ -10,7 +10,7 @@ extensions = [
     "sphinx.ext.extlinks",
     "sphinx.ext.intersphinx",
     # third-party
-    "sphinx_copybutton"
+    "sphinx_copybutton",
 ]
 
 language = "en"
