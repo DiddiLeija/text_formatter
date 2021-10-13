@@ -22,6 +22,15 @@ on the original repository. That pull request could close an open issue, or add 
 After you submit a pull request, the project maintainers will review the code to decide if your suggestion will
 be applied.
 
+Code style
+^^^^^^^^^^
+
+.. image:: https://img.shields.io/badge/code%20style-black-000000.svg
+    :target: https://github.com/psf/black
+
+We have adopted the ``black`` code style to format our code. When you contribute with Python code, you should
+respect that style. To avoid a CI failure, you can run ``nox -s format`` to format the code according to ``black``.
+
 Participate on issues
 ^^^^^^^^^^^^^^^^^^^^^
 
