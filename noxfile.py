@@ -14,3 +14,10 @@ def test(session):
     session.run("flake8", ".", "--count", "--show-source", "--statistic")
     session.run("isort", ".", "--check-only", "-v")
     session.run("black", "--check", ".")
+
+
+@nox.session
+def format(session):
+    # Run black to reformat the whole code.
+    session.install("black")
+    session.run("black", ".")
