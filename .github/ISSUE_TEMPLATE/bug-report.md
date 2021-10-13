@@ -2,7 +2,7 @@
 name: Bug report
 about: Create a report to help us improve
 title: ''
-labels: Please triage this, bug
+labels: bug, Please triage this
 assignees: ''
 
 ---
@@ -23,15 +23,14 @@ Steps to reproduce the behavior:
 
 A clear and concise description of what you expected to happen.
 
-**Screenshots**
-
-If applicable, add screenshots to help explain your problem.
-
-**Desktop (please complete the following information):**
+**Details (please complete the following information):**
 
  - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
+ - `text_formatter` version: [e.g. 1.0.0]
+
+**Full output**
+
+<!--- Try to use the Markdown code block with backticks (```) to post the code --->
 
 **Additional context**
 

@@ -1,8 +1,8 @@
 ---
 name: Release Tracker (for maintainers only)
 about: An issue to track a release.
-title: "[$version] release"
-labels: Release tracker, Announcement
+title: "[version] release"
+labels: Announcement, Release tracker
 assignees: ''
 
 ---
