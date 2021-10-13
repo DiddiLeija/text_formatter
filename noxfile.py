@@ -11,12 +11,6 @@ def test(session):
     # stop the build if there are Python syntax errors
     # or undefined names. Consider that the GitHub editor
     # is 127-characters wide.
-    session.run(
-      "flake8",
-      ".",
-      "--count",
-      "--show-source",
-      "--statistic"
-    )
+    session.run("flake8", ".", "--count", "--show-source", "--statistic")
     session.run("isort", ".", "--check-only", "-v")
     session.run("black", "--check", ".")

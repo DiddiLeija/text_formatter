@@ -37,14 +37,14 @@ setuptools.setup(
         "Operating System :: Microsoft :: Windows :: Windows 8",
         "Operating System :: Unix",
         "Topic :: Software Development",
-        "Topic :: Text Processing"
+        "Topic :: Text Processing",
     ],
     keywords="text format pretty strings formatter",
-    python_requires='>=3.6',
+    python_requires=">=3.6",
     project_urls={
         "Documentation": "http://text-formatter.readthedocs.io",  # ReadTheDocs site
         "Tracker": "http://github.com/diddileija/text_formatter/issues",  # GitHub issues page
-        "Source": "http://github.com/diddileija/text_formatter"  # source code on GitHub
+        "Source": "http://github.com/diddileija/text_formatter",  # source code on GitHub
     },
-    zip_safe=False
+    zip_safe=False,
 )
