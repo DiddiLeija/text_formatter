@@ -39,7 +39,7 @@ def docs(session):
         "docs/build/doctrees",
         "-b",
         "html",
-        "docs/"
+        "docs/",
     ]
 
     session.run(*command)
