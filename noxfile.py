@@ -40,6 +40,7 @@ def docs(session):
         "-b",
         "html",
         "docs/",
+        "docs/build/",
     ]
 
     session.run(*command)
