@@ -149,3 +149,7 @@ dmypy.json
 
 # Scratch Pad for experiments
 .scratch
+
+# ignore the docs/build generated
+# by `nox -s docs`, just in case.
+docs/build/
