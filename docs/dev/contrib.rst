@@ -45,8 +45,15 @@ them to report an unexpected behaviour or a feature request.
 Contributions to documentation
 ------------------------------
 
-Since we are saving the documentation files on the same repository than the code, the same things apply for
-contributing to the documentation.
+.. image:: https://readthedocs.org/projects/text-formatter/badge/?version=latest
+     :target: https://text-formatter.readthedocs.io/en/latest/?badge=latest
+     :alt: Documentation Status
+
+We are hosting our documentation at `ReadTheDocs <https://readthedocs.org>`_. The documentation is built using `Sphinx <https://github.com/sphinx-doc/sphinx>`_
+(version 4.0 or greater) and uses some other dependencies [#f1]_.
+
+Since we are saving the documentation files on the same repository than the code (on a ``docs`` folder), the same recomendations
+(mentioned before) apply for contributing to the documentation.
 
 Maintainers of the code
 -----------------------
@@ -60,4 +67,4 @@ Read the contributing guidelines `here <https://github.com/DiddiLeija/text_forma
 
 .. rubric:: Footnotes
 
-.. [#f1] See the information about ``no-response`` `here <https://github.com/apps/no-response>`_.
+.. [#f1] See the full list of the docs dependencies `on GitHub <https://github.com/DiddiLeija/text_formatter/blob/main/docs/requirements.txt>`_.
