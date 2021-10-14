@@ -4,7 +4,7 @@
 import nox
 
 
-@nox.session()
+@nox.session
 def test(session):
     # install flake8 and isort
     session.install("flake8", "isort", "black")
@@ -21,3 +21,25 @@ def format(session):
     # Run black to reformat the whole code.
     session.install("black")
     session.run("black", ".")
+
+
+@nox.session
+def docs(session):
+    # build the Sphinx documentation, to see
+    # if no warnings are raised
+    session.install("-e", ".")
+    session.install("-r", "docs/requirements.txt")
+
+    command = [
+        "sphinx-build",
+        "-W",
+        "-c",
+        "docs/conf.py",
+        "-d",
+        "docs/build/doctrees",
+        "-b",
+        "html",
+        "docs/"
+    ]
+
+    session.run(*command)
