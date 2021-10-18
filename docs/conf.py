@@ -20,8 +20,6 @@ copyright = "2021, Diego Ramirez"
 
 # HTML specs
 html_theme = "furo"
-#fmt: off
 html_theme_options = {
     "announcement": "Do you like this? Tell us <a href='https://shoutouts.dev/projects/DiddiLeija/text_formatter'>here</a>!",
 }
-#fmt: on
