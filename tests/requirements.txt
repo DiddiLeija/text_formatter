@@ -8,5 +8,5 @@
 # I won't get the latest updates. So, this is a special
 # case where Dependabot isn't relevant.
 black==21.9b0
-isort==5.9.0
+isort==5.9.3
 flake8==4.0.1
