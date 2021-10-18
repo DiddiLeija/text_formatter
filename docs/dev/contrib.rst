@@ -55,6 +55,21 @@ We are hosting our documentation at `ReadTheDocs <https://readthedocs.org>`_. Th
 Since we are saving the documentation files on the same repository than the code (on a ``docs`` folder), the same recomendations
 (mentioned before) apply for contributing to the documentation.
 
+Supported Python versions
+-------------------------
+
+We accept issues and contributions related to these Python versions:
+
+==============  ===============================================================================
+Python version  Status
+==============  ===============================================================================
+3.6             To be removed (`#53 <https://github.com/DiddiLeija/text_formatter/issues/53>`_)
+3.7             Supported
+3.8             Supported
+3.9             Supported
+3.10            Supported
+==============  ===============================================================================
+
 Maintainers of the code
 -----------------------
 
