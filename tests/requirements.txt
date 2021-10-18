@@ -9,4 +9,4 @@
 # case where Dependabot isn't relevant.
 black==21.9b0
 isort==5.9.0
-flake8==4.0.0
+flake8==4.0.1
