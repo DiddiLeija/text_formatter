@@ -36,6 +36,7 @@ They specify what is the issue proposal.
 * ``question``
 * ``Related to automation``
 * ``Related to bots/apps``
+* ``Related to deprecation``
 * ``Related to GitHub``
 * ``Related to manifest files``
 * ``Related to text_formatter.check``
