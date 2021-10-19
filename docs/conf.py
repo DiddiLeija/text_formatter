@@ -21,5 +21,8 @@ copyright = "2021, Diego Ramirez"
 # HTML specs
 html_theme = "furo"
 html_theme_options = {
-    "announcement": "Do you like this? Tell us <a href='https://shoutouts.dev/projects/DiddiLeija/text_formatter'>here</a>!",
+    # add an announcement redirecting to shoutouts.dev
+    "announcement": "Do you like the project? Tell us <a href='https://shoutouts.dev/projects/DiddiLeija/text_formatter'>here</a>!",
+    # add other HTML options
+    "description": "A pretty formatter for Python strings."
 }
