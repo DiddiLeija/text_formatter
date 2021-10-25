@@ -10,7 +10,7 @@ import string
 from text_formatter.exceptions import InvalidBytes, InvalidString
 
 # generate an "allowed characters list" for strings
-strict_allowed_chars = string.ascii_letters + string.digits + " "  # allow a space
+strict_allowed_chars = string.ascii_letters + string.digits + " " + ""  # allow a space
 allowed_string_chars = (
     strict_allowed_chars + "_-$#%/()=!'<>.:,;[]{}*+?¿¡\n" + '"'
 )  # include double quotes ("")
@@ -35,7 +35,7 @@ def checkString(s: str, strict: bool = False) -> None:
         ruler = allowed_string_chars
     # now, check the string
     for char in s:
-        if s not in ruler:
+        if char not in ruler:
             raise InvalidString(
                 f"String didn't satisfied what we expected: char '{char}' is not on the allowed chars"
             )
