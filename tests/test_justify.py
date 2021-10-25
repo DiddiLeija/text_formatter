@@ -21,9 +21,6 @@ ut labore et dolore magna aliqua"""
 
 def test_justify_error():
     text = "aa á aa"  # this will certainly fail
-    message = (
-        "String didn't satisfied what we expected: char 'á' is not on the allowed chars"
-    )
     with pytest.raises(
         InvalidString,
         match="String didn't satisfied what we expected: char 'á' is not on the allowed chars",
