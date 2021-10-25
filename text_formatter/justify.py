@@ -9,7 +9,7 @@ from typing import List
 from text_formatter.check import checkBytes, checkString
 
 
-def line_to string(l: List[str]):
+def line_to_string(l: List[str]):
     "Return a string from a list of strings."
     final_string = ""
     for char in l:
