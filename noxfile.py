@@ -7,6 +7,7 @@ import nox
 @nox.session()
 def test(session):
     # install flake8 and isort
+    session.install("-e", ".")
     session.install("-r", "tests/requirements.txt")
     # stop the build if there are Python syntax errors
     # or undefined names. Consider that the GitHub editor
