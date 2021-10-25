@@ -12,7 +12,7 @@ from text_formatter.exceptions import InvalidBytes, InvalidString
 # generate an "allowed characters list" for strings
 strict_allowed_chars = string.ascii_letters + string.digits + " "  # allow a space
 allowed_string_chars = (
-    strict_allowed_chars + "_-$#%/()=!'<>.:,;[]{}*+?¿¡" + '"'
+    strict_allowed_chars + "_-$#%/()=!'<>.:,;[]{}*+?¿¡\n" + '"'
 )  # include double quotes ("")
 
 # The same for the bytes. But we only have
