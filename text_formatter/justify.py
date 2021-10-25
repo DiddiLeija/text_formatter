@@ -9,10 +9,10 @@ from typing import List
 from text_formatter.check import checkBytes, checkString
 
 
-def line_to_string(l: List[str]):
+def list_to_string(seq: List[str]):
     "Return a string from a list of strings."
     final_string = ""
-    for char in l:
+    for char in seq:
         final_string += char
     return final_string
 
@@ -24,7 +24,7 @@ def justify(s: str, length: int) -> str:
     """
     # check the string introduced
     checkString(s)
-    
+
     for line in s.splitlines():
         if len(line.lstrip()) < 1:
             # there's nothing to do here
