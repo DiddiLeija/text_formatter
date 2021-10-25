@@ -14,6 +14,7 @@ def test(session):
     session.run("flake8", ".", "--count", "--show-source", "--statistic")
     session.run("isort", ".", "--check-only", "-v")
     session.run("black", "--check", ".")
+    session.run("pytest")
 
 
 @nox.session
