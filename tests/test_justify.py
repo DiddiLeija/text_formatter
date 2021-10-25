@@ -1,9 +1,9 @@
 "Test for text_formatter.justify"
 
+import pytest
+
 from text_formatter import justify
 from text_formatter.exceptions import InvalidString
-
-import pytest
 
 
 def test_string_justify():
