@@ -14,7 +14,7 @@ setuptools.setup(
     description="Pretty formatter for Python strings.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/diddileija/text_formatter",
+    url="http://text-formatter.readthedocs.io",
     packages=setuptools.find_packages(),
     classifiers=[
         "Development Status :: 1 - Planning",
