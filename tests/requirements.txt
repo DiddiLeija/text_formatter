@@ -1,5 +1,5 @@
 # Requirements used on the Python tests.
 
-black==21.12b0
+black==22.1.0
 isort==5.10.1
 flake8==4.0.1
