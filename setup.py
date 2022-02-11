@@ -1,3 +1,6 @@
+# TODO: At some point, we should move to a pyproject.toml + setup.cfg
+#       config, since setup.py may die soon.
+
 import setuptools
 
 # look for the README.md file for the long description
@@ -23,7 +26,6 @@ setuptools.setup(
         "Natural Language :: English",
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3 :: Only",
-        "Programming Language :: Python :: 3.6",
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9",
@@ -41,7 +43,7 @@ setuptools.setup(
         "Topic :: Text Processing",
     ],
     keywords="text format pretty strings formatter",
-    python_requires=">=3.6",
+    python_requires=">=3.7",
     project_urls={
         "Documentation": "http://text-formatter.readthedocs.io",  # ReadTheDocs site
         "Tracker": "http://github.com/diddileija/text_formatter/issues",  # GitHub issues page
