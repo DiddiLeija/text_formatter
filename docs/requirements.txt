@@ -1,6 +1,6 @@
 # Set the docs dependencies as pinned versions. Dependabot
 # may try to update them.
 
-sphinx==7.1.2
+sphinx==7.2.2
 sphinx_copybutton==0.5.2
 furo==2023.8.19
